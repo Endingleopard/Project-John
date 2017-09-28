@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<title>Solar System</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="/w3images/avatar_g2.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>PORTFOLIO</b></h4>
+    <p class="w3-text-grey">Template by W3.CSS</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Some of the Planets in the Solar System</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+      <button class="w3-button w3-black">ALL</button>
+      <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Design</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Photos</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Art</button>
+    </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+     <a href="https://earth.nullschool.net/"> <img src="https://boygeniusreport.files.wordpress.com/2017/04/earth.jpg?quality=98&strip=all&w=782" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Earth</p>
+        <p>Pale Blue Dot.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+     <a href="https://www.nasa.gov/mission_pages/mars/images/index.html"> <img src="http://i.dailymail.co.uk/i/pix/2016/06/13/12/0324207C000003E8-3638813-image-m-35_1465818678381.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Mars</b></p>
+        <p>Rusty Planet.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="http://i.dailymail.co.uk/i/pix/2013/02/15/article-2279059-17997DA7000005DC-879_634x639.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Mercury</b></p>
+        <p>Hot Planet</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://img.purch.com/h/1000/aHR0cDovL3d3dy5zcGFjZS5jb20vaW1hZ2VzL2kvMDAwLzAwMC8xMjQvb3JpZ2luYWwvMDcxMTI3LXZlbnVzLXN1cmZhY2UtMDIuanBn" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Venus</b></p>
+        <p>Hotter Planet</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://solarsystem.nasa.gov/images/slideshow/Saturn_from_Cassini_319.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Saturn</b></p>
+        <p>Married Planet</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="data:image/jpeg;base64,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" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Pluto</b></p>
+        <p>Expelled Planet</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+    </div>
+  </div>
+
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="/w3images/avatar_g.jpg" alt="Me" style="width:100%">
+    </div>
+    <div class="w3-col m6">
+      <img src="/w3images/me2.jpg" alt="Me" style="width:100%">
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About those planets above</b></h4>
+    <p>Those planets above are most likely to be 4.5 Billions years old that was captured by the gravity of the Sun.</p>
+    <hr>
+    
+    <h4>Technical Skills</h4>
+    <!-- Progress bars / Skills -->
+    <p>Photography</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%">95%</div>
+    </div>
+    <p>Planet spotting</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">95%</div>
+    </div>
+    <p>Teaching</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">90%</div>
+    </div>
+    <p>
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+        <i class="fa fa-download w3-margin-right"></i>Download Resume
+      </button>
+    </p>
+    <hr>
+    
+    <h4>How much I charge</h4>
+    <!-- Pricing Tables -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">1GB Storage</li>
+          <li class="w3-padding-16">Mail Support</li>
+          <li class="w3-padding-16">
+            <h2>9000</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-teal w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">50GB Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>9000</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">Unlimited Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>9000</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Johnyaneza19@yahoo.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Quezon City,Philippines</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>512312311</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Ipsum</span><br>
+          <span>Praes tinci sed</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">London</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Family</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Games</span>
+      </p>
+    </div>
+
+  </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
